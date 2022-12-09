@@ -1,0 +1,445 @@
+@media screen and (min-width: 1851px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cabecera {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  section h1 {
+    font-family: fantasy;
+    color: #00ffd0;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .content {
+    font-family: fantasy;
+    color: #00ffd0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .FotoBiciMont {
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    float: left;
+  }
+
+  .TituloBiciMontaña {
+    font-family: "Calibri";
+    font-size: 45px;
+    margin-top: 20px;
+    padding-left: 0px;
+  }
+
+  .TextoBiciMontaña {
+    padding-left: 700px;
+    font-family: "Calibri";
+    font-size: 35px;
+    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-right: 90px;
+  }
+
+  .FotoBiciCarr {
+    margin-top: 10px;
+    margin-right: 100px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    float: right;
+  }
+
+  .TituloBiciCarr {
+    font-family: "Calibri";
+    font-size: 45px;
+    margin-top: 20px;
+    padding-left: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+  }
+
+  .TextoBiciCarr {
+    font-family: "Calibri";
+    font-size: 35px;
+    margin-top: 20px;
+    margin: 30px;
+    text-align: center;
+    margin-right: 700px;
+  }
+
+  .FotoBiciCiudad {
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    float: left;
+  }
+
+  .TituloBiciCiudad {
+    font-family: "Calibri";
+    font-size: 45px;
+    margin-top: 20px;
+    padding-left: 0px;
+    float: right;
+    margin-right: 220px;
+  }
+
+  .TextoBiciCiudad {
+    padding-left: 700px;
+    font-family: "Calibri";
+    font-size: 35px;
+    margin-top: 20px;
+    margin: 20px;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  .enlaces_catalogo {
+    padding-left: 500px;
+    font-family: "Calibri";
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #Montaña {
+    text-align: right;
+    float: right;
+    max-width: 70%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  #TablaMarcas {
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+  }
+
+  .Fila2 {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 30px;
+  }
+
+  #flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer p {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+/* Responsive Movil */
+@media screen and (max-width: 800px) {
+  /* CSS CABECERA */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  section h1 {
+    font-family: fantasy;
+    color: #00ffd0;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .content {
+    font-family: fantasy;
+    color: #00ffd0;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  /************CSS CUERPO************/
+  /******CSS MONTAÑA******/
+  .FotoBiciMont {
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    height: 160px;
+    width: 220px;
+  }
+
+  .TituloBiciMontaña {
+    font-family: "Calibri";
+    font-size: 18px;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .TextoBiciMontaña {
+    font-family: "Calibri";
+    font-size: 15px;
+  }
+
+  .TextosMontaña {
+    text-align: center;
+  }
+
+  /******CSS CARRETERA******/
+
+  .FotoBiciCarr {
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    height: 160px;
+    width: 220px;
+  }
+  .FotoBiciCiudad {
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    height: 160px;
+    width: 220px;
+  }
+
+  .FotoBiciCarr {
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    height: 160px;
+    width: 220px;
+  }
+
+  .TituloBiciCarr {
+    font-family: "Calibri";
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .TextoBiciCarr {
+    font-family: "Calibri";
+    font-size: 15px;
+  }
+
+  .TextosCarretera {
+    text-align: center;
+  }
+
+  /******CSS CIUDAD******/
+
+  .TituloBiciCiudad {
+    font-family: "Calibri";
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .TextoBiciCiudad {
+    font-family: "Calibri";
+    font-size: 15px;
+  }
+
+  .TextosCiudad {
+    text-align: center;
+  }
+
+  #Encajar {
+    text-align: center;
+    max-width: 100%;
+    border-left: 50px; /*DIV GRANDE QUE LO COJE TODO PARA PODER ENCAJAR BIEN LA PÁGINA*/
+    border-right: 50px;
+  }
+
+  /******CSS TABLA DE MARCAS******/
+
+  .Fila2 {
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 8px;
+  }
+
+  #flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #TablaMarcas {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+  }
+  footer p {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+/************CSS CUERPO************/
+
+@media screen and ((min-width: 801px) and (max-width: 1850px)) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body {
+    background-color: lightgrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cabecera {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+  }
+
+  section h1 {
+    font-family: fantasy;
+    color: #a4bdab;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .content {
+    font-family: fantasy;
+    color: #a4bdab;
+    text-align: center;
+  }
+
+  .FotoBiciMont {
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    float: left;
+    width: 360px;
+    height: 280px;
+  }
+
+  .TituloBiciMontaña {
+    font-family: "Calibri";
+    font-size: 60px;
+    margin-top: 20px;
+    padding-left: 0px;
+    background-color: yellow;
+  }
+
+  .TextoBiciMontaña {
+    padding-left: 500px;
+    font-family: "Calibri";
+    font-size: 15px;
+    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-right: 90px;
+  }
+
+  .FotoBiciCarr {
+    margin-top: 10px;
+    margin-right: 100px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    float: right;
+    width: 360px;
+    height: 280px;
+  }
+
+  .TituloBiciCarr {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 15px;
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+  }
+
+  .TextoBiciCarr {
+    font-family: "Calibri";
+    font-size: 15px;
+    margin-top: 20px;
+    margin: 30px;
+    text-align: center;
+    margin-right: 400px;
+  }
+
+  .FotoBiciCiudad {
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 2px 5px grey);
+    float: left;
+    width: 360px;
+    height: 280px;
+  }
+
+  .TituloBiciCiudad {
+    font-family: "Calibri";
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 0px;
+    float: right;
+    margin-right: 220px;
+  }
+
+  .TextoBiciCiudad {
+    padding-left: 500px;
+    font-family: "Calibri";
+    font-size: 15px;
+    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
+    margin-right: 90px;
+  }
+
+  .enlaces_catalogo {
+    padding-left: 530px;
+    font-family: "Calibri";
+    font-size: 25px;
+    margin-top: 20px;
+    margin: 20px;
+    margin-right: 100px;
+    text-align: center;
+  }
+
+  #Montaña {
+    text-align: right;
+    float: right;
+    max-width: 70%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  #TablaMarcas {
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+  }
+
+  .Fila2 {
+    border: 1px solid black;
+    padding: 2px;
+  }
+
+  #flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
