@@ -18,15 +18,16 @@
 
 section h1 {
   font-family: fantasy;
-  color: #a4bdab;
+  color: #00ffd0;
   font-size: 60px;
   text-align: center;
 }
 
 .content {
   font-family: fantasy;
-  color: #a4bdab;
+  color: #00ffd0;
   text-align: center;
+  font-size: 30px;
 }
 
 h1 {

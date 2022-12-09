@@ -1,4 +1,14 @@
+import json
 
+
+def crearHTML(title, content):
+    with open(title + ".html", "w+", encoding="UTF-8") as f:
+        f.write(content)
+        print("Archivo HTML creado")
+
+
+def PaginaIndice():
+    html = f"""
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
   <head>
@@ -218,4 +228,5 @@
     </footer>
   </body>
   <!--Esto es el body-->
-</html>
+</html>"""
+    crearHTML("docs/index", html)
