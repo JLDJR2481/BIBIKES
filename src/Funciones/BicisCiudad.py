@@ -13,7 +13,7 @@ def PaginaCiudad(datos):
 <html lang="ES" dir="ltr">
   <head>
     <link href="css/OtherPages.css" rel="stylesheet" type="text/css">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="Img/favicon.png">
     <title>BIBIKES - Bicicletas de ciudad</title>
     <meta name="description" content="Pagina del catálogo de bicicletas de ciudad">
     <meta charset="UTF-8">
@@ -27,7 +27,7 @@ def PaginaCiudad(datos):
   <body class="body">
     <header
       style="
-        background: url(img/banner.jpg);
+        background: url(Img/banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
       "
