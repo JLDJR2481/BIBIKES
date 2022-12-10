@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="ES" dir="ltr">
+  <head>
+    <link href="css/OtherPages.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="Img/favicon.png">
+    <title>BIBIKES - Información</title>
+    <meta name="description" content="Pagina de información de cada bicicleta">
+    <meta charset="UTF-8">
+    <meta name="author" content="Juan Pérez & José Luis De Jesús">
+    <meta name="copyright" content="CIFP Francesc de Borja Moll">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="keywords" content="Bicis, Carretera, Montaña, Ciudad, Marcas">
+    <base target="_blank">
+  </head>
+
+  <body class="body">
+    <header
+      style="
+        background: url(Img/banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <!--Esto es el header-->
+      <section class="cabecera">
+        <br><br>
+        <h1>BI-BIKES</h1>
+        <br><br>
+      </section>
+      <div class="content">
+        <p>Todos los tipos de bicicletas disponibles bajo un mismo techo</p>
+        <br><br>
+      </div>
+    </header>
+    <!--Esto es el header-->
+    <br>
+    <form id="flex-container">
+        <fieldset  class="fieldset">
+            <legend id="TituloForm">Alquilar bicicleta</legend>
+            <div>   
+            <fieldset class="fieldset">
+                <legend>Datos personales</legend><br>
+                <label for='Name'>Nombre</label> <input type="text" id="Name" name="Nombre" value="" required><br><br>
+                <label for='Name'>Apellidos</label> <input type="text" id="Name" name="Apellidos" value="" required><br><br>
+                <label for='Address'>Dirección</label> <input type="text" id="Address" name="Dirección" value="" required><br><br>
+                <label for='Phone'>Teléfono</label> <input type="tel" id="Phone" name="Telefono" value="" required><br><br>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>Datos bancarios</legend><br>
+                <label for='Name'>Targeta bancaria</label> <input type="text" id="Name" name="Nombres y apellidos" value="" required><br><br>
+                <label for='Address'>Codigo postal</label> <input type="text" id="Address" name="Codigo postal" value="" required><br><br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+          </div>
+        </fieldset>
+    </form>
+  </body>
