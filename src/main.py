@@ -1,6 +1,6 @@
 import json
 import os
-from Funciones.crearArchivoJSON import crearArchivoJSON
+from Funciones.database.database import *
 from Funciones.Indice import PaginaIndice
 from Funciones.BicisMontaña import PaginaMontaña
 from Funciones.BicisCarretera import PaginaCarretera
@@ -18,8 +18,9 @@ def traerJSON():
 
 
 if __name__ == "__main__":
+
  # Creamos un archivo JSON. Proceso más tardío
-    url = os.environ["URL"]
+    url = os.environ["URL1"]
     ApiKey = os.environ["API"]
     crearArchivoJSON(url, ApiKey)
 
