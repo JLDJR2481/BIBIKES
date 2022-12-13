@@ -150,7 +150,8 @@ Una de las mayores dificultades que hemos tenido a la hora de trabajar es el poc
 
 ## Información Extra
 ### Gráfico de Ramas
-![Ramas](https://user-images.githubusercontent.com/115024410/207169369-5bd7403f-21fe-4990-91c3-41d1857eb205.PNG)
+![Ramas](https://user-images.githubusercontent.com/115024410/207371114-50083adb-6ff4-4114-a91d-f79a8ccd5d05.PNG)
+
 
 ### Contribuidores
 ![Contribuidores](https://contrib.rocks/image?repo=JLDJR2481/BIBIKES)
