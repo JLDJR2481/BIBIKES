@@ -143,6 +143,7 @@ Además, las asignaturas han sido divididas en proyectos, para más facilitació
 Actualmente, tenemos bastantes mejoras en mente que implementar, como por ejemplo:
 - Un mejor sistema de navegación entre páginas, ya que se puede hacer tedioso la navegación de la misma
 - Una mejor recogida de datos, ya sea con librerias externas como puede ser Pymongo u otros
+- Una implementación que permita encontrar que rutas existen y que no para automatizar la creación y eliminación de archivos HTML y así no tener páginas con bicicletas no existentes
 
 ## Dificultades
 Una de las mayores dificultades que hemos tenido a la hora de trabajar es el poco conocimiento que teniamos sobre el uso de GitHub Page, sobre las ramas, sobre los comandos... Eso nos hizo perder mucho más tiempo, ya que debíamos aprender sin computar, ya que, a vistas de la empresa, no es facturable.
