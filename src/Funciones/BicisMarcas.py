@@ -7,7 +7,7 @@ def crearHTML(title, content):
         print("Archivo HTML creado")
 
 
-def MarcaRiverside(datos):
+def marcaRiverside(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -80,7 +80,7 @@ def MarcaRiverside(datos):
     crearHTML("docs/Riverside", html)
 
 
-def MarcaCERES(datos):
+def marcaCERES(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -153,7 +153,7 @@ def MarcaCERES(datos):
     crearHTML("docs/CERES", html)
 
 
-def MarcaBTWIN(datos):
+def marcaBTWIN(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -226,7 +226,7 @@ def MarcaBTWIN(datos):
     crearHTML("docs/BTWIN", html)
 
 
-def MarcaRockrider(datos):
+def marcaRockrider(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -299,7 +299,7 @@ def MarcaRockrider(datos):
     crearHTML("docs/Rockrider", html)
 
 
-def MarcaVanRysel(datos):
+def marcaVanRysel(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -372,7 +372,7 @@ def MarcaVanRysel(datos):
     crearHTML("docs/VanRysel", html)
 
 
-def MarcaElops(datos):
+def marcaElops(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -445,7 +445,7 @@ def MarcaElops(datos):
     crearHTML("docs/Elops", html)
 
 
-def MarcaTriban(datos):
+def marcaTriban(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -518,7 +518,7 @@ def MarcaTriban(datos):
     crearHTML("docs/Triban", html)
 
 
-def MarcaMOMA(datos):
+def marcaMOMA(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">
@@ -591,7 +591,7 @@ def MarcaMOMA(datos):
     crearHTML("docs/MOMA", html)
 
 
-def MarcaNTT(datos):
+def marcaNTT(datos):
     html = """
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">

@@ -3,25 +3,25 @@ import os
 import json
 
 
-def DeleteOne(url, ApiKey):
+def deleteOne(url, apiKey):
     assert isinstance(url, str)
-    assert isinstance(ApiKey, str)
+    assert isinstance(apiKey, str)
 
-    ID = input("Escriba aqui la id de la bici correspondiente para eliminarla: ")
+    iD = input("Escriba aqui la id de la bici correspondiente para eliminarla: ")
 
     payload = json.dumps({
         "collection": "BICIS",
         "database": "BIBIKES",
         "dataSource": "Trabajo",
         "filter": {
-            "_id": {"$oid": ID}
+            "_id": {"$oid": iD}
         }
     })
 
     headers = {
         'Content-Type': 'application/json',
         'Access-Control-Request-Headers': '*',
-        'api-key': ApiKey
+        'api-key': apiKey
     }
 
     print("Bicicleta eliminada correctamente")
@@ -30,6 +30,6 @@ def DeleteOne(url, ApiKey):
 
 if __name__ == "__main__":
     url = os.environ["URLD"]
-    ApiKey = os.environ["API"]
+    apiKey = os.environ["API"]
 
-    DeleteOne(url, ApiKey)
+    deleteOne(url, apiKey)

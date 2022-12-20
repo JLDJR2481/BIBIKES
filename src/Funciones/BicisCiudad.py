@@ -7,7 +7,7 @@ def crearHTML(title, content):
         print("Archivo HTML creado")
 
 
-def PaginaCiudad(datos):
+def paginaCiudad(datos):
     html = f"""
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">

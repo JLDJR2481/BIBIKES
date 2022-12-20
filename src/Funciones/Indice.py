@@ -7,7 +7,7 @@ def crearHTML(title, content):
         print("Archivo HTML creado")
 
 
-def PaginaIndice():
+def paginaIndice():
     html = f"""
 <!DOCTYPE html>
 <html lang="ES" dir="ltr">

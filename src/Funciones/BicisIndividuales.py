@@ -7,7 +7,7 @@ def crearHTML(title, content):
         print("Archivo HTML creado")
 
 
-def BicisIndividuales(datos):
+def bicisIndividuales(datos):
     appeared = []
     for i in datos:
         if i["id"] not in appeared:

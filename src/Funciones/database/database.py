@@ -5,9 +5,9 @@ import os
 # Funcion para crear un archivo JSON de la base de datos
 
 
-def crearArchivoJSON(url, ApiKey):
+def crearArchivoJSON(url, apiKey):
     assert isinstance(url, str)
-    assert isinstance(ApiKey, str)
+    assert isinstance(apiKey, str)
 
     payload = json.dumps({
         "collection": "BICIS",
@@ -21,7 +21,7 @@ def crearArchivoJSON(url, ApiKey):
     headers = {
         'Content-Type': 'application/json',
         'Access-Control-Request-Headers': '*',
-        'api-key': ApiKey
+        'api-key': apiKey
     }
 
     try:
