@@ -1,6 +1,6 @@
 import json
 import os
-from funciones.database.database import crearArchivoJSON
+from database.database import crearArchivoJSON
 from funciones.indice import paginaIndice
 from funciones.bicisMontaña import paginaMontaña
 from funciones.bicisCarretera import paginaCarretera
