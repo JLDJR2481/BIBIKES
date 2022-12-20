@@ -51,34 +51,34 @@ def bicisIndividuales(datos):
     <section id="flex-container">
       <div class="prueba">
         <div class="caja">
-          <p><b> {Nombre} </b> </p>
+          <p><b> {nombre} </b> </p>
         </div >
         <div class = "caja" >
           <img
             class = "FotoDeLaBici"
-            src ="{Imagen}"
+            src ="{imagen}"
             alt = "Foto de la bici">
         </div>
         <div class = "caja">
-          <p> <b> Marca: </b> {Marca} </p>
+          <p> <b> Marca: </b> {marca} </p>
         </div>
         <div class= "caja">
-          <p> <b> Talla: </b> {Talla} </p>
+          <p> <b> Talla: </b> {talla} </p>
         </div >
         <div class= "caja" >
-          <p > <b > Cuadro: </b> {Cuadro} </p>
+          <p > <b > Cuadro: </b> {cuadro} </p>
         </div >
         <div class= "caja" >
-          <p > <b > Suspension:</b> {Suspension} </p>
+          <p > <b > Suspension:</b> {suspension} </p>
         </div >
         <div class= "caja" >
-          <p > <b > Tamaño de rueda:</b> {Tamaño_de_ruedas} </p>
+          <p > <b > Tamaño de rueda:</b> {tamaño_de_ruedas} </p>
         </div >
         <div class= "caja" >
-          <p > <b > Velocidades:</b> {Velocidades} </p>
+          <p > <b > Velocidades:</b> {velocidades} </p>
         </div >
         <div class= "caja" >
-          <p > <b > Material:</b> {Material} </p>
+          <p > <b > Material:</b> {material} </p>
         </div >
         <div class= "caja" >
           <a href="formulario.html"> Alquilar </a >
@@ -87,7 +87,7 @@ def bicisIndividuales(datos):
     </section>
     <br>
   </body >
-</html>""".format(Nombre=i.get("Nombre"), Imagen=i.get("Imagen"), Marca=i["Caracteristicas"]["Marca"], Talla=i["Caracteristicas"]["Talla"], Cuadro=i["Caracteristicas"]["Cuadro"], Suspension=i["Caracteristicas"]["Suspension"], Tamaño_de_ruedas=i["Caracteristicas"]["Tamaño ruedas"], Velocidades=i["Caracteristicas"]["Velocidades"], Material=i["Caracteristicas"]["Material"])
+</html>""".format(nombre=i.get("Nombre"), imagen=i.get("Imagen"), marca=i["Caracteristicas"]["Marca"], talla=i["Caracteristicas"]["Talla"], cuadro=i["Caracteristicas"]["Cuadro"], suspension=i["Caracteristicas"]["Suspension"], tamaño_de_ruedas=i["Caracteristicas"]["Tamaño ruedas"], velocidades=i["Caracteristicas"]["Velocidades"], material=i["Caracteristicas"]["Material"])
 
             appeared.append(i["id"])
             crearHTML("docs/Bici" + str(i["id"]), html)

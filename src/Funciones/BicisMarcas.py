@@ -56,23 +56,23 @@ def marcaRiverside(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -129,23 +129,23 @@ def marcaCERES(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -202,23 +202,23 @@ def marcaBTWIN(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -275,23 +275,23 @@ def marcaRockrider(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -348,23 +348,23 @@ def marcaVanRysel(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -421,23 +421,23 @@ def marcaElops(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -494,23 +494,23 @@ def marcaTriban(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -567,23 +567,23 @@ def marcaMOMA(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>
@@ -640,23 +640,23 @@ def marcaNTT(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i["Nombre"], Imagen=i["Imagen"], Localizacion=i["Localizacion"], Precio=i["Precio"], id=i["id"])
+      </section>""".format(nombre=i["Nombre"], imagen=i["Imagen"], localizacion=i["Localizacion"], precio=i["Precio"], id=i["id"])
     html += """
     </div>
   </body>

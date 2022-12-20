@@ -57,23 +57,23 @@ def paginaMontaña(datos):
       <section>
         <div class="prueba">
           <div class="caja">
-            <p>{Nombre}</p>
+            <p>{nombre}</p>
           </div>
           <div class="caja">
             <img
-              class="FotoDeLaBici" src="{Imagen}" alt = "Foto de la bici">
+              class="FotoDeLaBici" src="{imagen}" alt = "Foto de la bici">
           </div>
           <div class="caja">
-            <p><b>Localización: </b>{Localizacion}</p>
+            <p><b>Localización: </b>{localizacion}</p>
           </div>
           <div class="caja">
-            <p><b>Precio: </b>{Precio}</p>
+            <p><b>Precio: </b>{precio}</p>
           </div>
           <div class="caja">
             <a href="Bici{id}.html">Más detalles</a>
           </div>
         </div>
-      </section>""".format(Nombre=i.get("Nombre"), Imagen=i.get("Imagen"), Localizacion=i.get("Localizacion"), Precio=i.get("Precio"), id=i.get("id"))
+      </section>""".format(nombre=i.get("Nombre"), imagen=i.get("Imagen"), localizacion=i.get("Localizacion"), precio=i.get("Precio"), id=i.get("id"))
     html += """
     </div>
   </body>
